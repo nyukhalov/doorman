@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	pb "github.com/youtube/doorman/proto/doorman"
+	pb "github.com/nyukhalov/doorman/proto/doorman"
 )
 
 type testCase struct {

@@ -1,4 +1,4 @@
-package: github.com/youtube/doorman
+package: github.com/nyukhalov/doorman
 import:
 - package: github.com/chzyer/readline
 - package: github.com/coreos/etcd

@@ -32,7 +32,7 @@ import (
 	log "github.com/golang/glog"
 	"github.com/google/shlex"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/youtube/doorman/go/client/doorman"
+	"github.com/nyukhalov/doorman/go/client/doorman"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

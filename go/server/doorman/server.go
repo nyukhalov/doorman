@@ -29,14 +29,14 @@ import (
 	log "github.com/golang/glog"
 	"github.com/golang/protobuf/proto"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/youtube/doorman/go/connection"
-	"github.com/youtube/doorman/go/server/election"
-	"github.com/youtube/doorman/go/timeutil"
+	"github.com/nyukhalov/doorman/go/connection"
+	"github.com/nyukhalov/doorman/go/server/election"
+	"github.com/nyukhalov/doorman/go/timeutil"
 	"golang.org/x/net/context"
 	rpc "google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	pb "github.com/youtube/doorman/proto/doorman"
+	pb "github.com/nyukhalov/doorman/proto/doorman"
 )
 
 var (

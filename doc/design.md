@@ -117,7 +117,7 @@ The unit of protection is the “resource”. Resources have a maximum capacity,
 
 Examples of a resource (in terms of the rate limiting system) are:
 
-+ A [Vitess](https://github.com/youtube/vitess) transaction pool associated with a YouTube MySQL master shard. Clients can use a resource like this to limit the number of transactions that a client can have in-flight simultaneously.
++ A [Vitess](https://github.com/nyukhalov/vitess) transaction pool associated with a YouTube MySQL master shard. Clients can use a resource like this to limit the number of transactions that a client can have in-flight simultaneously.
 + A MySQL replica shard. The capacity could represent the number of queries per second sent to the shard, or perhaps (in case we implement a system of query cost calculation) a number of query cost units per second.
 
 Each resource has a unique identifier which is used by the client when asking for capacity. This identifier is a human readable string which is otherwise opaque to the system. Existing identifiers like service names and MySQL shard names can be reused as resource identifiers.
